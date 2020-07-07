@@ -1,0 +1,14 @@
+[package]
+name = "actix-compat-runtime-crash"
+version = "0.1.0"
+authors = ["Mark Drobnak <mdrobnak@mozilla.com>"]
+edition = "2018"
+
+[dependencies]
+actix-web = "2.0"
+actix-rt = "1.1.1"
+futures01 = "0.1.29"
+tokio01 = { package = "tokio", version = "0.1" }
+tokio02 = { package = "tokio", version = "0.2.21", features = ["rt-util"]}
+tokio-compat = "0.1.6"
+
